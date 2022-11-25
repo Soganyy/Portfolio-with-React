@@ -5,7 +5,7 @@ html{
 }
 
 body{ 
-    background: #EDFEEB;
+    background: #21252B;
     width: 100%;
     height: 100%;
     font-family: 'Sono';
@@ -135,8 +135,5 @@ body{
     font-size: 64px;
     line-height: 77px;
 
-    color: #F8512F;
-}
-.gitHubLink{
     color: #F8512F;
 }
