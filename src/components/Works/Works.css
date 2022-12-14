@@ -1,0 +1,42 @@
+.worksHeading{
+    position: absolute;
+    width: 720px;
+    height: 184px;
+    left: 0px;
+    top: 1236px;
+
+    background: #F8512F;
+}
+.worksText{
+    margin-top: 34px;
+    margin-left: 251px;
+    width: 298px;
+    height: 115px;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+
+    color: #F8F9E9;
+}
+.worksSection{
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 80px;
+    top: 1445px;
+    
+    background: #21252B;
+}
+.wrapElementBackground{
+    width: 330.83px;
+    height: 247.42px;
+    background: #EDFEEB;
+}
+.alignElements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 111.11px;
+    margin-left: 111.11px;
+}
