@@ -1,13 +1,16 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import FirstInfo from './components/FirstInfo/FirstInfo'
-import Works from './components/Works/Works'
+import HomePage from './Pages/HomePage'
+import WorksPage from './Pages/WorksPage'
 
 export default function App() {
     return (
         <div className='app'>
-            <FirstInfo />
-            <Works />
+            <Routes>
+                <Route path='' element={<HomePage />}> </Route>
+                <Route path='/Works' element={<WorksPage />}> </Route>
+            </Routes>
         </div>
     )
 }

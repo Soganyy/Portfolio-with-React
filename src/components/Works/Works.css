@@ -1,4 +1,4 @@
-.worksHeading{
+.worksHeading {
     position: absolute;
     width: 720px;
     height: 184px;
@@ -7,7 +7,8 @@
 
     background: #F8512F;
 }
-.worksText{
+
+.worksText {
     margin-top: 34px;
     margin-left: 251px;
     width: 298px;
@@ -19,24 +20,88 @@
 
     color: #F8F9E9;
 }
-.worksSection{
+
+.worksSection {
     position: absolute;
     width: 1280px;
     height: 720px;
     left: 80px;
     top: 1445px;
-    
+
     background: #21252B;
 }
-.wrapElementBackground{
+
+.wrapElementBackground {
+    position: relative;
     width: 330.83px;
     height: 247.42px;
     background: #EDFEEB;
 }
+
 .alignElements {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
     margin-top: 111.11px;
     margin-left: 111.11px;
+}
+
+.images {
+    width: 264px;
+    height: 165px;
+    margin-left: 34px;
+    margin-top: 41px;
+    border: 2px solid rgb(226, 226, 226);
+    border-radius: 10px;
+    object-fit: cover;
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.rectOnHover {
+    display: none;
+}
+
+.images:hover + .rectOnHover {
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 35px;
+    width: 265px;
+    height: 167px;
+    
+    font-size: 20px;
+    color: white;
+    background: rgba(248, 81, 47, 0.6);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 13px rgba(253, 34, 34, 0.25));
+}
+
+.rectOnHover:hover {
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 35px;
+    width: 265px;
+    height: 167px;
+
+    font-size: 20px;
+    color: white;
+    background: rgba(248, 81, 47, 0.6);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 13px rgba(253, 34, 34, 0.25));
+}
+
+.centeringText {
+    text-align: center;
+}
+
+a {
+    color: white;
 }
