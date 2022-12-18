@@ -1,0 +1,68 @@
+[
+    {
+        "rectFirstBackground": {
+            "position": "absolute",
+            "width": "50%",
+            "height": "1024px",
+            "left": "720px",
+            "top": "0px",
+            "background": "#21252B"
+        },
+        "rect1": {
+            "position": "absolute",
+            "width": "615px",
+            "height": "194px",
+            "left": "105px",
+            "top": "52px",
+            "background": "#21252B",
+            "border": "none"
+        },
+        "rect2": {
+            "position": "absolute",
+            "width": "615px",
+            "height": "194px",
+            "left": "720px",
+            "top": "52px",
+            "background": "#EDFEEB",
+            "border": "none"
+        },
+        "hello": {
+            "position": "absolute",    
+            "width": "600px",   
+            "height": "648px",    
+            "left": "80px",   
+            "top": "284px",   
+            "background": "#21252B"
+        },
+        "textHello": {
+            "width": "357px",   
+            "height": "115px", 
+            "marginTop": "266px",   
+            "marginLeft": "121px",    
+            "fontWeight": "400",    
+            "fontSize": "96px",
+            "lineHeight": "115px",    
+            "color": "#F8F9E9"
+        },
+        "info": {
+            "position": "absolute",    
+            "width": "600px", 
+            "height": "648px",  
+            "left": "760px",    
+            "top": "284px",    
+            "background": "#EDFEEB",    
+            "textAlign": "center"
+        },
+        "infoText": {
+            "width": "509px",  
+            "height": "406px",   
+            "marginTop": "106px",    
+            "marginLeft": "60px",    
+            "fontWeight": "400",  
+            "fontSize": "48px",   
+            "lineHeight": "58px",    
+            "textAlign": "left",   
+            "color": "#282C34"
+        }
+    }
+]

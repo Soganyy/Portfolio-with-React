@@ -1,0 +1,68 @@
+[
+    {
+        "worksHeading": {
+            "position": "absolute",
+            "width": "720px",
+            "height": "184px",
+            "left": "0px",
+            "top": "1236px",
+            "background": "#F8512F"
+        },
+
+        "worksText": {
+            "marginTop": "34px",
+            "marginLeft": "251px",
+            "width": "298px",
+            "height": "115px",
+            "fontWeight": "400",
+            "fontSize": "96px",
+            "linHeight": "115px",
+            "textAlign": "center",
+            "color": "#F8F9E9"
+        },
+
+        "worksSection": {
+            "position": "absolute",
+            "width": "1280px",
+            "height": "720px",
+            "left": "80px",
+            "top": "1445px",
+            "background": "#EDFEEB"
+        },
+
+        "wrapElementBackground": {
+            "position": "relative",
+            "width": "330.83px",
+            "height": "247.42px",
+            "background": "#21252B"
+        },
+
+        "alignElements": {
+            "display": "flex",
+            "flexWrap": "wrap",
+            "gap": "32px",
+            "marginTop": "111.11px",
+            "marginLeft": "111.11px"
+        },
+
+        "images": {
+            "width": "264px",
+            "height": "165px",
+            "marginLeft": "34px",
+            "marginTop": "41px",
+            "border": "2px solid rgb(226, 226, 226)",
+            "borderRadius": "10px",
+            "objectFit": "cover",
+
+            "WebkitTransition": "all 500ms ease",
+            "MozTransition": "all 500ms ease",
+            "MsTransition": "all 500ms ease",
+            "OTransition": "all 500ms ease",
+            "transition": "all 500ms ease"
+        },
+
+        "centeringText": {
+            "textAlign": "center"
+        }
+    }
+]

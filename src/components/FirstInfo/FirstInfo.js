@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import styleFirst from './styleFirst.json'
+import styleSecond from './styleSecond.json'
 
 export default function FirstInfo() {
 
     const [color, setColor] = useState('#EDFEEB');
-    const [cssName, setName] = useState();
+    const [style, setStyle] = useState(styleFirst);
 
     const dis = useDispatch();
+    
     const storeData = useSelector(function (state) {
         return state;
     })
@@ -18,11 +21,11 @@ export default function FirstInfo() {
     const changeTheme = () => {
 
         if (storeData.themeReverse === 0) {
-            setColor('#21252B');
-            setName('./FirstInfoReverse.css');
-        } else {
             setColor('#EDFEEB');
-            setName('./FirstInfo.css');
+            setStyle(styleFirst);
+        } else {
+            setColor('#21252B');
+            setStyle(styleSecond);
         }
 
         dis({
@@ -33,13 +36,13 @@ export default function FirstInfo() {
 
     return (
         <div>
-            <span className="rectFirstBackground"></span>
+            <span style={style[0].rectFirstBackground}></span>
             <div>
-                <button className="rect1" onClick={changeTheme}></button>
-                <button className="rect2" onClick={changeTheme}></button>
+                <button style={style[0].rect1} onClick={changeTheme}></button>
+                <button style={style[0].rect2} onClick={changeTheme}></button>
             </div>
-            <div className="hello"><p className="textHello">Hello;</p></div>
-            <div className="info"><p className="infoText">I’m Matin Mammadli.<br />
+            <div style={style[0].hello}><p style={style[0].textHello}>Hello;</p></div>
+            <div style={style[0].info}><p style={style[0].infoText}>I’m Matin Mammadli.<br />
                 I like making fun, interactive things with code.<br />
                 I also try to design.</p>
             </div>

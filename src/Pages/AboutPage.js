@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function WorksPage() {
+export default function AboutPage() {
     return (
         <>
-            <p>Works</p>
+            <p>About</p>
         </>
     )
 }

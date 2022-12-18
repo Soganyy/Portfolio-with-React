@@ -1,0 +1,33 @@
+[
+    {
+        "contactHeading": {
+            "position": "absolute",
+            "width": "720px",
+            "height": "184px",
+            "left": "0px",
+            "top": "3500px",
+            "background": "#F8512F"
+        },
+
+        "contactText": {
+            "marginTop": "34px",
+            "marginLeft": "251px",
+            "width": "298px",
+            "height": "115px",
+            "fontWeight": "400",
+            "fontSize": "96px",
+            "lineHeight": "115px",
+            "textAlign": "center",
+            "color": "#F8F9E9"
+        },
+
+        "contactSection": {
+            "position": "absolute",
+            "width": "1280px",
+            "height": "720px",
+            "left": "80px",
+            "top": "3728px",
+            "background": "#21252B"
+        }
+    }
+]

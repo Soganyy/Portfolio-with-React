@@ -1,0 +1,33 @@
+[
+    {
+        "aboutHeading": {
+            "position": "absolute",
+            "width": "720px",
+            "height": "184px",
+            "left": "751px",
+            "top": "2332px",
+            "background": "#F8512F"
+        },
+
+        "aboutText": {
+            "marginTop": "34px",
+            "marginLeft": "251px",
+            "width": "298px",
+            "height": "115px",
+            "fontWeight": "400",
+            "fontSize": "96px",
+            "lineHeight": "115px",
+            "textAlign": "center",
+            "color": "#F8F9E9"
+        },
+
+        "aboutSection": {
+            "position": "absolute",
+            "width": "1280px",
+            "height": "720px",
+            "left": "80px",
+            "top": "2550px",
+            "background": "#EDFEEB"
+        }
+    }
+]
