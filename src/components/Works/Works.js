@@ -18,17 +18,15 @@ export default function Works() {
 
     const storeData = useSelector(function (state) {
         return state;
-    })
-
-    const theme = storeData.themeReverse
+    })    
 
     useEffect(() => {
         if (storeData.themeReverse === 0) {
-            setStyle(styleFirst)
-        } else {
             setStyle(styleSecond)
+        } else {
+            setStyle(styleFirst)
         }
-    }, [theme])
+    })
 
     return (
         <>

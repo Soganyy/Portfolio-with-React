@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+
 import styleFirst from './styleFirst.json'
 import styleSecond from './styleSecond.json'
+
+import Works from '../Works/Works'
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+
 
 export default function FirstInfo() {
 
@@ -46,6 +52,11 @@ export default function FirstInfo() {
                 I like making fun, interactive things with code.<br />
                 I also try to design.</p>
             </div>
+
+            <Works />
+            <About />
+            <Contact />
+
         </div>
     )
 }

@@ -14,9 +14,9 @@ export default function About() {
 
     useEffect(() => {
         if(storeData.themeReverse === 0) {
-            setStyle(styleFirst)
-        } else {
             setStyle(styleSecond)
+        } else {
+            setStyle(styleFirst)
         }
     })
 
