@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import HomePage from './Pages/HomePage'
-import WorksPage from './Pages/WorksPage'
-import AboutPage from './Pages/AboutPage'
-import ContactPage from './Pages/ContactPage'
+import HomePage from '../Pages/HomePage'
+import WorksPage from '../Pages/WorksPage'
+import AboutPage from '../Pages/AboutPage'
+import ContactPage from '../Pages/ContactPage'
 
 export default function App() {
     return (
