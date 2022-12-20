@@ -6,7 +6,13 @@
             "height": "1024px",
             "left": "720px",
             "top": "0px",
-            "background": "#21252B"
+            "background": "#21252B",
+
+            "WebkitTransition": "all 500ms ease",
+            "MozTransition": "all 500ms ease",
+            "MsTransition": "all 500ms ease",
+            "OTransition": "all 500ms ease",
+            "transition": "all 500ms ease"
         },
         "rect1": {
             "position": "absolute",
@@ -15,7 +21,13 @@
             "left": "105px",
             "top": "52px",
             "background": "#21252B",
-            "border": "none"
+            "border": "none",
+
+            "WebkitTransition": "all 500ms ease",
+            "MozTransition": "all 500ms ease",
+            "MsTransition": "all 500ms ease",
+            "OTransition": "all 500ms ease",
+            "transition": "all 500ms ease"
         },
         "rect2": {
             "position": "absolute",
@@ -24,7 +36,13 @@
             "left": "720px",
             "top": "52px",
             "background": "#EDFEEB",
-            "border": "none"
+            "border": "none",
+
+            "WebkitTransition": "all 500ms ease",
+            "MozTransition": "all 500ms ease",
+            "MsTransition": "all 500ms ease",
+            "OTransition": "all 500ms ease",
+            "transition": "all 500ms ease"
         },
         "hello": {
             "position": "absolute",    

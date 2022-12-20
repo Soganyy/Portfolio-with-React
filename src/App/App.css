@@ -4,3 +4,11 @@
     /* scroll-behavior: smooth; */
     font-family: 'Sono';
 }
+
+body {
+    -webkit-transition: all 1000ms ease;
+    -moz-transition: all 1000ms ease;
+    -Ms-transition: all 1000ms ease;
+    -o-transition: all 1000ms ease;
+    transition: all 1000ms ease;
+}

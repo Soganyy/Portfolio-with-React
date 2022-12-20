@@ -34,22 +34,22 @@ export default function Works() {
             <div style={style[0].worksSection}>
                 <div style={style[0].alignElements}>
                     <span style={style[0].wrapElementBackground}>
-                        <a href='file://C:/Users/matin/repos/taskAPI/index.html'><img style={style[0].images} className="images" src={Converter} alt='Online Currency Converter' /></a>
+                        <a href='https://github.com/Soganyy/TaskAPI' target="_blank"><img style={style[0].images} className="images" src={Converter} alt='Online Currency Converter' /></a>
                     </span>
                     <span style={style[0].wrapElementBackground}>
-                        <a href='https://github.com/Soganyy/PortfolioTask.git'><img style={style[0].images} className="images" src={Portfolio} alt='Portfolio' /></a>
+                        <a href='https://github.com/Soganyy/PortfolioTask.git' target="_blank"><img style={style[0].images} className="images" src={Portfolio} alt='Portfolio' /></a>
                     </span>
                     <span style={style[0].wrapElementBackground}>
-                        <a href='https://github.com/Soganyy/TaskAPI'><img style={style[0].images} className="images" src={ToDo} alt='Task organizer' /></a>
+                        <a href='https://github.com/Soganyy/TaskList.git' target="_blank"><img style={style[0].images} className="images" src={ToDo} alt='Task organizer' /></a>
                     </span>
                     <span style={style[0].wrapElementBackground}>
-                        <a href='https://github.com/Soganyy/TaskAPI'><img style={style[0].images} className="images" src={ASOIUDesign} alt='Design for contest' /></a>
+                        <a href='https://www.figma.com/file/IyPaNGV9jE6DPZZFnDFxwT/ASOIU?t=HamWqPfKU6pq2r91-6' target="_blank"><img style={style[0].images} className="images" src={ASOIUDesign} alt='Design for contest' /></a>
                     </span>
                     <span style={style[0].wrapElementBackground}>
-                        <a href='https://github.com/Soganyy/TaskAPI'><img style={style[0].images} className="images" src={Projectbootcamp} alt='Project done on bootcamp' /></a>
+                        <a href='https://github.com/Soganyy/FirstProject.git' target="_blank"><img style={style[0].images} className="images" src={Projectbootcamp} alt='Project done on bootcamp' /></a>
                     </span>
                     <span style={style[0].wrapElementBackground}>
-                        <a href='https://github.com/Soganyy/TaskAPI'><img style={style[0].images} className="images" src={Design2} alt='Design' /></a>
+                        <a href='https://www.figma.com/file/EddicR6AknpX2kotgii0PK/Barety?t=HamWqPfKU6pq2r91-6' target="_blank"><img style={style[0].images} className="images" src={Design2} alt='Design' /></a>
                     </span>
                 </div>
             </div>
