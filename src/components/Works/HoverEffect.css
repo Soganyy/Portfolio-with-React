@@ -1,37 +1,6 @@
-.rectOnHover {
-    display: none;
-}
-
-.images:hover + .rectOnHover {
-    display: block;
-    position: absolute;
-    top: 42px;
-    left: 35px;
-    width: 265px;
-    height: 167px;
-    
-    font-size: 20px;
-    color: white;
-    background: rgba(248, 81, 47, 0.6);
-    backdrop-filter: blur(2px);
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 13px rgba(253, 34, 34, 0.25));
-}
-
-.rectOnHover:hover {
-    display: block;
-    position: absolute;
-    top: 42px;
-    left: 35px;
-    width: 265px;
-    height: 167px;
-
-    font-size: 20px;
-    color: white;
-    background: rgba(248, 81, 47, 0.6);
-    backdrop-filter: blur(2px);
-    border-radius: 10px;
-    filter: drop-shadow(0px 4px 13px rgba(253, 34, 34, 0.25));
+.images:hover {
+    filter: blur(0.9px);
+    transform: scale(1.02);
 }
 
 a {

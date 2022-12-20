@@ -1,0 +1,4 @@
+.paragHoverEffect:hover {
+    transform: scale(1.02);
+    background-color: #F8512F;
+}

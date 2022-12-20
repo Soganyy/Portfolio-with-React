@@ -1,0 +1,58 @@
+
+.form {
+    padding: 40px;
+}
+
+label {
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+input {
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.messageInput {
+    height: 300px;
+}
+
+.submitButton {
+    background-color: #F8512F;
+    margin-left: 50px;
+    width: 310px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 27px;
+    color: #F8F9E9;
+    font-family: 'Sono';
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.submitButton:hover {
+    transform: scale(1.01);
+}
+
+.flexItems {
+    display: flex;
+    gap: 80px;
+}
+
+.paragr {
+    width: 470px;
+    height: 700px;
+    font-size: 37px;
+    margin-left: 150px;
+    margin-top: 120px;
+}

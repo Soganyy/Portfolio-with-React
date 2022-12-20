@@ -5,13 +5,13 @@
             "width": "720px",
             "height": "184px",
             "left": "0px",
-            "top": "1236px",
+            "top": "1286px",
             "background": "#F8512F"
         },
 
         "worksText": {
             "marginTop": "34px",
-            "marginLeft": "251px",
+            "marginLeft": "300px",
             "width": "298px",
             "height": "115px",
             "fontWeight": "400",
@@ -26,7 +26,7 @@
             "width": "1280px",
             "height": "720px",
             "left": "80px",
-            "top": "1445px",
+            "top": "1495px",
             "background": "#EDFEEB"
         },
 

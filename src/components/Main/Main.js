@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import styleFirst from './styleFirst.json'
 import styleSecond from './styleSecond.json'
 
+import Blog from '../Blog/Blog'
 import Works from '../Works/Works'
 import About from '../About/About'
 import Contact from '../Contact/Contact'
@@ -11,14 +12,14 @@ import Contact from '../Contact/Contact'
 
 export default function FirstInfo() {
 
-    const [color, setColor] = useState('#EDFEEB');
-    const [style, setStyle] = useState(styleFirst);
-
-    const dis = useDispatch();
-    
     const storeData = useSelector(function (state) {
         return state;
     })
+
+    const [color, setColor] = useState('#EDFEEB');
+    const [style, setStyle] = useState(storeData.themeReverse ? styleFirst : styleSecond);
+
+    const dis = useDispatch();
 
     useEffect(() => {
         document.body.style.backgroundColor = color;
@@ -48,11 +49,12 @@ export default function FirstInfo() {
                 <button style={style[0].rect2} onClick={changeTheme}></button>
             </div>
             <div style={style[0].hello}><p style={style[0].textHello}>Hello;</p></div>
-            <div style={style[0].info}><p style={style[0].infoText}>I’m Matin Mammadli.<br />
+            <div style={style[0].info}><p style={style[0].infoText}>I’m First Somebody.<br />
                 I like making fun, interactive things with code.<br />
                 I also try to design.</p>
             </div>
 
+            <Blog />
             <Works />
             <About />
             <Contact />

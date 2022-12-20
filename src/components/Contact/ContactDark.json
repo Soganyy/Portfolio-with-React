@@ -4,14 +4,14 @@
             "position": "absolute",
             "width": "720px",
             "height": "184px",
-            "left": "0px",
-            "top": "3500px",
+            "left": "751px",
+            "top": "5100px",
             "background": "#F8512F"
         },
 
         "contactText": {
             "marginTop": "34px",
-            "marginLeft": "251px",
+            "marginLeft": "100px",
             "width": "298px",
             "height": "115px",
             "fontWeight": "400",
@@ -26,8 +26,20 @@
             "width": "1280px",
             "height": "720px",
             "left": "80px",
-            "top": "3728px",
+            "top": "5328px",
             "background": "#EDFEEB"
+        },
+
+        "label": {
+            "color": "#21252B"
+        },
+
+        "input": {
+            "backgroundColor": "#21252B"
+        },
+
+        "paragr": {
+            "color": "#21252B"
         }
     }
 ]

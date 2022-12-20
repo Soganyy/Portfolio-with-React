@@ -1,0 +1,90 @@
+[
+    {
+        "blogHeading": {
+            "position": "absolute",
+            "width": "720px",
+            "height": "184px",
+            "left": "751px",
+            "top": "2441px",
+            "background": "#F8512F"
+        },
+
+        "blogText": {
+            "marginTop": "40px",
+            "marginLeft": "100px",
+            "width": "298px",
+            "height": "115px",
+            "fontWeight": "400",
+            "fontSize": "96px",
+            "lineHeight": "115px",
+            "textAlign": "center",
+            "color": "#F8F9E9"
+        },
+
+        "blogSection": {
+            "position": "absolute",
+            "width": "1280px",
+            "height": "720px",
+            "left": "80px",
+            "top": "2650px",
+            "background": "#F8F9E9"
+        },
+
+        "textFlex": {
+            "marginTop": "60px",
+            "width": "1080px",
+            "height": "600px",
+            "marginLeft": "100px",
+            "display": "flex",
+            "backgroundColor": "#21252B",
+            "gap": "10px"
+        },
+
+        "parag": {
+            "width": "370px",
+            "fontWeight": 400,
+            "fontSize": "24px",
+            "lineHeight": "29px",
+            "color": "#F8512F"
+        },
+
+        "linkStyle": {
+            "textDecoration": "none", 
+            "color": "#F8F9E9"
+        },
+
+        "span": {
+            "marginTop": "140px",
+            "width": "1px",
+            "height": "400px",
+            "backgroundColor": "white"
+        },
+
+        "header": {
+            "margin": "50px 0px 7px 40px",
+            "color": "#F8F9E9",
+            "width": "300px"
+        },
+
+        "paragDiv": {
+            "width": "450px",
+            "height": "500px",
+            "paddingLeft": "50px",
+            "paddingTop": "20px",
+
+            "WebkitTransition": "all 500ms ease",
+            "MozTransition": "all 500ms ease",
+            "MsTransition": "all 500ms ease",
+            "OTransition": "all 500ms ease",
+            "transition": "all 500ms ease"
+        },
+
+        "firstTextSection": {
+            "marginLeft": "25px"
+        },
+
+        "secondTextSection": {
+            "marginLeft": "25px"
+        }
+    }
+]
