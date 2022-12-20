@@ -49,7 +49,7 @@ export default function FirstInfo() {
                 <button style={style[0].rect2} onClick={changeTheme}></button>
             </div>
             <div style={style[0].hello}><p style={style[0].textHello}>Hello;</p></div>
-            <div style={style[0].info}><p style={style[0].infoText}>I’m First Somebody.<br />
+            <div style={style[0].info}><p style={style[0].infoText}>I’m Matin Mammadli.<br />
                 I like making fun, interactive things with code.<br />
                 I also try to design.</p>
             </div>
