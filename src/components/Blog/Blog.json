@@ -2,49 +2,49 @@
     {
         "blogHeading": {
             "position": "absolute",
-            "width": "720px",
-            "height": "184px",
-            "left": "751px",
-            "top": "2441px",
+            "width": "50vw",
+            "height": "12.77vw",
+            "left": "49.4%",
+            "top": "169.51vw",
             "background": "#F8512F"
         },
 
         "blogText": {
-            "marginTop": "40px",
-            "marginLeft": "100px",
-            "width": "298px",
-            "height": "115px",
+            "marginTop": "2.77vw",
+            "marginLeft": "6.94vw",
+            "width": "20.69vw",
+            "height": "7.98vw",
             "fontWeight": "400",
-            "fontSize": "96px",
-            "lineHeight": "115px",
+            "fontSize": "6.66vw",
+            "lineHeight": "7.98vw",
             "textAlign": "center",
             "color": "#F8F9E9"
         },
 
         "blogSection": {
             "position": "absolute",
-            "width": "1280px",
-            "height": "720px",
-            "left": "80px",
-            "top": "2650px",
+            "width": "88.88vw",
+            "height": "50vw",
+            "left": "5.55vw",
+            "top": "184.02vw",
             "background": "#21252B"
         },
 
         "textFlex": {
-            "marginTop": "60px",
-            "width": "1080px",
-            "height": "600px",
-            "marginLeft": "100px",
+            "marginTop": "4.16vw",
+            "width": "75vw",
+            "height": "41.66vw",
+            "marginLeft": "6.94vw",
             "display": "flex",
-            "gap": "10px"
+            "gap": "0.69vw"
         },
 
         "parag": {
-            "width": "350px",
-            "fontWeight": 400,
-            "fontSize": "24px",
+            "width": "24.30vw",
+            "fontWeight": "400",
+            "fontSize": "1.66vw",
             "color": "#21252B",
-            "lineHeight": "29px"
+            "lineHeight": "2.01vw"
         },
 
         "linkStyle": {
@@ -52,23 +52,24 @@
         },
 
         "span": {
-            "marginTop": "140px",
-            "width": "1px",
-            "height": "400px",
+            "marginTop": "9.72vw",
+            "width": "0.069vw",
+            "height": "27.77vw",
             "backgroundColor": "white"
         },
 
         "header": {
-            "margin": "50px 0px 7px 40px",
+            "margin": "3.47vw 0vw 0.486vw 2.77vw",
             "color": "#F8F9E9",
-            "width": "300px"
+            "width": "20.83vw",
+            "fontSize": "1.80vw"
         },
 
         "paragDiv": {
-            "width": "450px",
-            "height": "500px",
-            "paddingLeft": "50px",
-            "paddingTop": "20px",
+            "width": "31.25vw",
+            "height": "34.72vw",
+            "paddingLeft": "3.47vw",
+            "paddingTop": "1.38vw",
 
             "WebkitTransition": "all 500ms ease",
             "MozTransition": "all 500ms ease",
@@ -78,11 +79,11 @@
         },
 
         "firstTextSection": {
-            "marginLeft": "25px"
+            "marginLeft": "1.73vw"
         },
 
         "secondTextSection": {
-            "marginLeft": "25px"
+            "marginLeft": "1.73vw"
         }
     }
 ]

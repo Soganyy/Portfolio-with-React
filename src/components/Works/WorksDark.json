@@ -1,57 +1,57 @@
 [
-    {
+    { 
         "worksHeading": {
             "position": "absolute",
-            "width": "720px",
-            "height": "184px",
-            "left": "0px",
-            "top": "1286px",
+            "width": "50vw",
+            "height": "12.77vw",
+            "left": "0",
+            "top": "89.38vw",
             "background": "#F8512F"
         },
 
         "worksText": {
-            "marginTop": "34px",
-            "marginLeft": "300px",
-            "width": "298px",
-            "height": "115px",
+            "marginTop": "2.36vw",
+            "marginLeft": "20.83vw",
+            "width": "20.69vw",
+            "height": "7.98vw",
             "fontWeight": "400",
-            "fontSize": "96px",
-            "linHeight": "115px",
+            "fontSize": "6.66vw",
+            "linHeight": "7.98vw",
             "textAlign": "center",
             "color": "#F8F9E9"
         },
 
         "worksSection": {
             "position": "absolute",
-            "width": "1280px",
-            "height": "720px",
-            "left": "80px",
-            "top": "1495px",
+            "width": "88.88vw",
+            "height": "50vw",
+            "left": "5.55vw",
+            "top": "103.81vw",
             "background": "#EDFEEB"
         },
 
         "wrapElementBackground": {
             "position": "relative",
-            "width": "330.83px",
-            "height": "247.42px",
+            "width": "22.98vw",
+            "height": "17.1875vw",
             "background": "#21252B"
         },
 
         "alignElements": {
             "display": "flex",
             "flexWrap": "wrap",
-            "gap": "32px",
-            "marginTop": "111.11px",
-            "marginLeft": "111.11px"
+            "gap": "2.22vw",
+            "marginTop": "7.71vw",
+            "marginLeft": "7.71vw"
         },
 
         "images": {
-            "width": "264px",
-            "height": "165px",
-            "marginLeft": "34px",
-            "marginTop": "41px",
-            "border": "2px solid rgb(226, 226, 226)",
-            "borderRadius": "10px",
+            "width": "18.33vw",
+            "height": "11.45vw",
+            "marginLeft": "2.36vw",
+            "marginTop": "2.84vw",
+            "border": "0.13vw solid rgb(226, 226, 226)",
+            "borderRadius": "0.69vw",
             "objectFit": "cover",
 
             "WebkitTransition": "all 500ms ease",
@@ -61,8 +61,11 @@
             "transition": "all 500ms ease"
         },
 
-        "centeringText": {
-            "textAlign": "center"
+        "p": {
+            "position": "absolute",
+            "left": "3.47vw",
+            "top": "3.47vw",
+            "width": "6.94vw"
         }
     }
 ]

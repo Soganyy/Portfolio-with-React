@@ -2,45 +2,44 @@
     {
         "aboutHeading": {
             "position": "absolute",
-            "width": "720px",
-            "height": "184px",
+            "width": "50vw",
+            "height": "12.7vw",
             "left": "0",
-            "top": "3596px",
+            "top": "249.72vw",
             "background": "#F8512F"
         },
 
         "aboutText": {
-            "marginTop": "34px",
-            "marginLeft": "300px",
-            "width": "298px",
-            "height": "115px",
+            "marginTop": "2.77vw",
+            "marginLeft": "20.83vw",
+            "width": "20.69vw",
+            "height": "7.98vw",
             "fontWeight": "400",
-            "fontSize": "96px",
-            "lineHeight": "115px",
+            "fontSize": "6.66vw",
+            "lineHeight": "7.9vw",
             "textAlign": "center",
             "color": "#F8F9E9"
         },
 
         "aboutSection": {
             "position": "absolute",
-            "width": "1280px",
-            "height": "720px",
-            "left": "80px",
-            "top": "3805px",
+            "width": "88.88vw",
+            "height": "50vw",
+            "left": "5.55vw",
+            "top": "264.23vw",
             "background": "#EDFEEB"
         },
 
         "paraggg": {
-            "width": "1026px",
-            "height": "586px",
+            "width": "71.25vw",
+            "height": "40.69vw",
             "marginLeft": "auto",
             "marginRight": "auto",
             "fontStyle": "normal",
             "fontWeight": "400",
-            "fontSize": "40px",
-            "lineHeight": "48px",
-            "color": "#21252B",
-            "marginTop": "70px",
+            "fontSize": "2.43vw",
+            "lineHeight": "3.33vw",
+            "marginTop": "6.25vw",
 
             "WebkitTransition": "all 500ms ease",
             "MozTransition": "all 500ms ease",

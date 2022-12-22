@@ -38,11 +38,11 @@ export default function Contact() {
                 <form className="form" style={style[0].form}>
 
                     <label htmlFor="name" style={style[0].label}> Name: <br />
-                        <input type="text" name='name' className='nameInput' style={style[0].input} />
+                        <input type="text" name='name' className='inputSty' style={style[0].input} />
                     </label> <br />
 
                     <label htmlFor="email" style={style[0].label}> Email: <br />
-                        <input type="email" name="email" className='emailInput' style={style[0].input} />
+                        <input type="email" name="email" className='inputSty' style={style[0].input} />
                     </label> <br />
 
                     <label htmlFor="message" style={style[0].label}> Message: <br />

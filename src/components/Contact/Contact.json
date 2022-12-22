@@ -2,31 +2,31 @@
     {
         "contactHeading": {
             "position": "absolute",
-            "width": "720px",
-            "height": "184px",
-            "left": "751px",
-            "top": "4751px",
+            "width": "50vw",
+            "height": "12.77vw",
+            "left": "49.4%",
+            "top": "329.93vw",
             "background": "#F8512F"
         },
 
         "contactText": {
-            "marginTop": "34px",
-            "marginLeft": "100px",
-            "width": "298px",
-            "height": "115px",
+            "marginTop": "2.36vw",
+            "marginLeft": "6.94vw",
+            "width": "20.69vw",
+            "height": "7.98vw",
             "fontWeight": "400",
-            "fontSize": "96px",
-            "lineHeight": "115px",
+            "fontSize": "6.66vw",
+            "lineHeight": "7.98vw",
             "textAlign": "center",
             "color": "#F8F9E9"
         },
 
         "contactSection": {
             "position": "absolute",
-            "width": "1280px",
-            "height": "720px",
-            "left": "80px",
-            "top": "4960px",
+            "width": "88.88vw",
+            "height": "50vw",
+            "left": "5.55vw",
+            "top": "344.44vw",
             "background": "#21252B"
         },
 
@@ -39,7 +39,7 @@
         },
 
         "paragr": {
-            "color": "white"
+            "color": "#F8F9E9"
         }
     }
 ]

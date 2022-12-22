@@ -1,35 +1,42 @@
-
 .form {
-    padding: 40px;
+    width: 30vw;
+    padding: 2.77vw;
 }
 
 label {
-    font-size: 30px;
-    margin-left: 60px;
+    font-size: 2.08vw;
+    margin-left: 4vw;
 }
 
-input {
-    padding-left: 10px;
-    margin-left: 50px;
-    margin-bottom: 30px;
-    margin-top: 5px;
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
+.inputSty {
+    padding-left: 0.69vw;
+    margin-left: 3.47vw;
+    margin-bottom: 2.08vw;
+    margin-top: 0.34vw;
+    width: 20.83vw;
+    height: 2.08vw;
+    border-radius: 0.34vw;
     border: none;
 }
 .messageInput {
-    height: 300px;
+    height: 20.83vw;
+    padding-left: 0.69vw;
+    margin-left: 3.47vw;
+    margin-bottom: 2.08vw;
+    margin-top: 0.34vw;
+    width: 20.83vw;
+    border-radius: 0.34vw;
+    border: none;
 }
 
 .submitButton {
     background-color: #F8512F;
-    margin-left: 50px;
-    width: 310px;
-    height: 50px;
+    margin-left: 3.47vw;
+    width: 21.52vw;
+    height: 3.47vw;
     border: none;
-    border-radius: 5px;
-    font-size: 27px;
+    border-radius: 0.34vw;
+    font-size: 1.875vw;
     color: #F8F9E9;
     font-family: 'Sono';
 
@@ -46,13 +53,13 @@ input {
 
 .flexItems {
     display: flex;
-    gap: 80px;
+    gap: 5.55vw;
 }
 
 .paragr {
-    width: 470px;
-    height: 700px;
-    font-size: 37px;
-    margin-left: 150px;
-    margin-top: 120px;
+    width: 32.63vw;
+    height: 48.61vw;
+    font-size: 2.56vw;
+    margin-left: 10.41vw;
+    margin-top: 8.33vw;
 }

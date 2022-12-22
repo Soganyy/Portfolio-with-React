@@ -42,7 +42,7 @@ export default function WorksPage() {
                 setImageOfWork(Design)
             }
         })
-    })
+    },[workId])
 
     return (
         <div className='worksPage'>
