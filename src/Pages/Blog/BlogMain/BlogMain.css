@@ -1,0 +1,52 @@
+.textBlog {
+    position: fixed;
+    margin-top: 15px;
+    padding-left: 200px;
+    width: 300px;
+    height: 115px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 115px;
+    color: #F8F9E9;
+    background: #F8512F;
+}
+
+.mainSection {
+    display: inline-block;
+    margin-left: 0.5%;
+    width: 99%;
+    height: 720px;
+    background-color: #21252B;
+    display: flex;
+}
+
+.paragrafOfBlog {
+    margin-top: 170px;
+    margin-left: 40px;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+    background-color: #F8F9E9;
+
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.buttonToRight {
+    margin-top: 200px;
+    margin-left: 60px;
+    height: 420px;
+    width: 90px;
+    font-size: 50px;
+    border: none;
+    background-color: #F8512F;
+    color: #F8F9E9;
+}
+
+.paragrafOfBlog:hover {
+    transform: scale(1.02);
+}
