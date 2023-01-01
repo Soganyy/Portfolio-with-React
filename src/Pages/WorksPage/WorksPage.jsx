@@ -33,7 +33,6 @@ export default function WorksPage() {
     }
 
     useEffect(() => {
-        console.log(workId)
         setInfoText(storeData.worksText[workId])
         setImageOfWork(() => {
             if(workId === 0) {
